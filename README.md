@@ -1,1 +1,6 @@
 # biodiversity_plots
+
+# About
+
+Can belly-button bacteria be used to create tasty alternatives to beef? In this project we took data from a study on belly-button bacteria and presented it visually as shown below. For this assignment we gathered the data from a JSON file, processed it using JavaScript, and presented it using different methods with Plotly. Using the drop down menu on the left, a subject ID can be selected and then the information on the page will be updated with information for that ID. The bar chart lists the most frequent bacteria for the subject in descending order, the gauge chart shows how frequently the subject washes their belly button, and the bubble chart provides a robust display of the frequency of bacteria strains against others. The information found here could be useful in finding bacteria
+human belly buttons. Is this in some way a strange new form of cannabolism? If it leads to a sucessfully tasty alternative to beef, a strains that taste similarly to beef and their frequency in  philosophers and lobbyists may be arguing over this for years. Will the writer be cleaning his belly button more often? The answer to this question is a resounding, "yes".

@@ -7,17 +7,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
-
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style="color:#7FFFD4;">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+    <div class="col-md-12" align="center">
+      <h1><b> About </b></h1>
+      <p>
+         Can belly-button bacteria be used to create tasty alternatives to beef? In this project we took 
+         data from a study on belly-button bacteria and presented it visually as shown below. For this assignment
+         we gathered the data from a JSON file, processed it using JavaScript, and presented it using different methods
+         with Plotly. Using the drop down menu on the left, a subject ID can be selected and then the information on the page 
+         will be updated with information for that ID. The bar chart lists the most frequent bacteria for the 
+         subject in descending order, the gauge chart shows how frequently the subject washes their belly button, and 
+         the bubble chart provides a robust display of the frequency of bacteria strains against others. The information 
+         found here could be useful in finding bacteri
+         human belly buttons. Is this in some way a strange new form of cannabolism? If it leads to a sucessfully tasty alternative to beef, a strains that taste similarly to beef and their frequency in  philosophers and lobbyists may
+         be arguing over this for years. Will the writer be cleaning his belly button more often? The answer to this question
+         is a resounding, "yes".
+      </p>
+    <br>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
@@ -32,23 +48,27 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
+      <div class="col-md-5" >
+        <div id="bar" ></div>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
       </div>
     </div>
+    <br><br><br>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" >
         <div id="bubble"></div>
       </div>
     </div>
+  <br><br><br>
+  </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <!-- <script src="plots.js"></script> -->
+  <script src="js/charts.js"></script>
 
 </body>
 

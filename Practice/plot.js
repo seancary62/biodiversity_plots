@@ -11,7 +11,8 @@ var topFiveCityGrowths = topFiveCities.map(city => parseInt(city.population));
 var trace = {
     x: topFiveCityNames,
     y: topFiveCityGrowths,
-    type: "bar"
+    type: "bar",
+    orientation: 'h'
 };
 var data = [trace];
 var layout = {
