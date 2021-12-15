@@ -16,3 +16,6 @@ Can belly-button bacteria be used to create tasty alternatives to beef? In this 
 
 ## Page
  https://seancary62.github.io/biodiversity_plots/
+
+## Contact
+Email: sean.cary62@gmail.com
